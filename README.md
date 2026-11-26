@@ -58,4 +58,4 @@ O relatório apresenta:
 - **SQL Server** (T-SQL: DDL, DML, `JOIN`, `GROUP BY`, `CASE`)
 - **Power BI** (modelagem visual, filtros interativos e gráficos)
 
-![alt text](image.png)
+![Dashboard de Chamados Financeiros](dashboard_bi.png)
