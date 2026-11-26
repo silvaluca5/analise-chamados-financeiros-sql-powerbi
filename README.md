@@ -4,9 +4,9 @@ Projeto de análise de dados voltado para o monitoramento de chamados de suporte
 
 ## Estrutura do Projeto
 
-- `SQLQuery6.sql` (DDL): criação do banco `ProjetoSuporteFinanceiro` e das tabelas `clientes` e `chamados_financeiros` com chave estrangeira (`FK_chamados_cliente`).
-- `SQLQuery5.sql` (DML): inserção de 5 clientes (`Pessoa Física` e `Pessoa Jurídica`) e 7 chamados registrados entre `02/11/2026` e `19/11/2026`.
-- `SQLQuery4.sql` (Consultas Analíticas): consultas `SELECT` com filtros (`WHERE`), junção (`INNER JOIN`), agregações (`GROUP BY`, `COUNT`, `SUM`) e classificação condicional (`CASE`).
+- `01_criar_tabelas.sql` (DDL): criação do banco `ProjetoSuporteFinanceiro` e das tabelas `clientes` e `chamados_financeiros` com chave estrangeira (`FK_chamados_cliente`).
+- `02_inserir_dados.sql` (DML): inserção de 5 clientes (`Pessoa Física` e `Pessoa Jurídica`) e 7 chamados registrados entre `02/11/2026` e `19/11/2026`.
+- `03_consultas_analiticas.sql` (Consultas Analíticas): consultas `SELECT` com filtros (`WHERE`), junção (`INNER JOIN`), agregações (`GROUP BY`, `COUNT`, `SUM`) e classificação condicional (`CASE`).
 - `arq_dashboard.pbix`: painel visual no Power BI com KPIs, segmentação por status e gráficos de distribuição por cidade, status, motivo e tipo de conta.
 
 ## Modelo de Dados
